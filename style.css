@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    height: 100%;
     background: linear-gradient( to top, #BFCBD1, #778694);
     font-family: 'Scada', sans-serif;
     color: #ffffff;
@@ -13,12 +12,12 @@ body {
 .logo {
     position: fixed;
     left: 177px;
-    top: 264px;
+    top: 164px;
 }
 
 .menu {
     position: fixed;
-    top: 382px;
+    top: 252px;
     left: 178px;
 }
 
@@ -41,13 +40,13 @@ li {
 
 .content {
     position: absolute;
-    top: 200px;
-    left: 359px;
+    top: 100px;
+    left: 399px;
 }
 
 footer {
     position: fixed;
-    top: 748px;
+    top: 698px;
     left: 178px;
     font-size: 10px;
 }
@@ -55,12 +54,12 @@ footer {
 .strelka-1 {
     position: fixed;
     left: 185px;
-    top: 659px;
+    top: 539px;
 }
 
 .menu-3 {
     position: fixed;
-    top: 719px;
+    top: 629px;
     left: 178px;
 }
 
@@ -99,12 +98,13 @@ div  {
 }
 
 .content h1 {
-    height: 187px;
+    height: auto;
     width: 381px;
     font-size: 86px;
 }
 
 .content p {
+    height: auto;
     width: 381px;
     font-size: 14px;
     line-height: 17px;
@@ -112,6 +112,6 @@ div  {
 
 .strelka-2 {
     position: fixed;
-    top: 659px;
-    left: 1254px;
+    top: 539px;
+    right: 150px;
 }
