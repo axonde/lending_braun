@@ -1,5 +1,6 @@
 html {
-    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 body {
@@ -7,18 +8,22 @@ body {
     font-family: 'Scada', sans-serif;
     color: #ffffff;
     background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    margin: 0px;
 }
 
 .logo {
-    position: fixed;
-    left: 177px;
-    top: 164px;
+    margin-left: 172px;
+    margin-top: 164px;
 }
 
 .menu {
-    position: fixed;
-    top: 252px;
-    left: 178px;
+    margin-top: 70px;
+    margin-left: 170px;
+    margin-bottom: -30px;
 }
 
 ul {
@@ -33,9 +38,10 @@ li {
 }
 
 .img-product {
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 944px;
+    height: 100%;
 }
 
 .content {
@@ -45,22 +51,18 @@ li {
 }
 
 footer {
-    position: fixed;
-    top: 698px;
-    left: 178px;
     font-size: 10px;
+    margin-left: 170px;
+    margin-bottom: 0px;
 }
 
 .strelka-1 {
-    position: fixed;
-    left: 185px;
-    top: 539px;
+    margin-top: 30px;
 }
 
 .menu-3 {
-    position: fixed;
-    top: 629px;
-    left: 178px;
+    margin-top: 30px;
+    margin-bottom: none;
 }
 
 div  {
@@ -111,7 +113,7 @@ div  {
 }
 
 .strelka-2 {
-    position: fixed;
-    top: 539px;
-    right: 150px;
+    position: relative;
+    top: -60px;
+    left: 1000px;
 }
