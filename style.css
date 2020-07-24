@@ -9,13 +9,9 @@ html {
 @media screen and (max-width: 1266px) and (max-height: 816px) {
     html {
       width: 1166px;
-      height: 716px;
+      height: 666px;
       background-image: url(fon.png);
       background-size: cover;
-    }
-
-    .img-product {
-        height: 816px;
     }
 }
 
@@ -38,7 +34,7 @@ p {
 .logo {
     position: absolute;
     left: 178px;
-    top: 164px;
+    top: 114px;
 }
 
 
@@ -46,7 +42,7 @@ p {
 .menu {
     position: absolute;
     left: 178px;
-    top: 282px;
+    top: 232px;
     padding: 0px;
     font-weight: lighter;
     line-height: 25px;
@@ -113,7 +109,7 @@ p {
 
 .content {
     position: absolute;
-    top: 130px;
+    top: 80px;
     left: 350px;
 }
 
@@ -140,14 +136,20 @@ h1 {
 
 @media screen and (max-width: 1266px) and (max-height: 816px) {
     .img-product {
-        height: 716px;
+        height: 666px;
     }
 }
 
 .strelka-2 {
     position: absolute;
     right: 278px;
-    top: 612px;
+    top: 562px;
+}
+
+@media screen and (max-width: 1266px) and (max-height: 816px) {
+    .strelka-2 {
+        right: 20px;
+    }
 }
 
 
@@ -155,7 +157,7 @@ h1 {
 
 footer {
     position: absolute;
-    top: 680px;
+    top: 630px;
     left: 178px;
     color: #ffffff;
     font-size: 10px;
